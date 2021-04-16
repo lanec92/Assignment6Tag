@@ -3,7 +3,7 @@ using UnityEngine;
 // Makes a transform oscillate relative to its start position
 public class Oscillator : MonoBehaviour
 {
-    public float m_Amplitude = 1.0f;
+    public float m_Amplitude = .3f;
     public float m_Period = 1.0f;
     public Vector3 m_Direction = Vector3.up;
     Vector3 m_StartPosition;
