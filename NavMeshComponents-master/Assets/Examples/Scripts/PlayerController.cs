@@ -39,10 +39,3 @@ public class PlayerController : MonoBehaviour
     }
 }
 
-/*private void OnTriggerEnter(Collider collision)
-    {
-        Destroy(gameObject);
-        SceneManager.LoadScene(0);
-
-    }*/
-

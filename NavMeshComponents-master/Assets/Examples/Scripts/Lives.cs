@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Lives : MonoBehaviour
 {
@@ -11,5 +12,10 @@ public class Lives : MonoBehaviour
     void Update()
     {
         livesText.text = lives.ToString();
+
+        if (lives <= 0)
+        {
+            SceneManager.LoadScene(2);
+        }
     }
 }

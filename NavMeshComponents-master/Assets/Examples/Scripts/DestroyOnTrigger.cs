@@ -11,7 +11,7 @@ public class DestroyOnTrigger : MonoBehaviour
         {
             Destroy(gameObject);
             Lives.lives--;
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(1);
         }
     }
 }

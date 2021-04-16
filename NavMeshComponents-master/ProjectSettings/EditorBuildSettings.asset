@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: 0cb25d2184abcdc4480a6d56b6b936ba
+  - enabled: 1
     path: Assets/Scenes/1_multiple_agent_sizes.unity
     guid: e3a4b724d578d4696a8ccd679e44174c
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: 45a056e37330cdf4b9ddef72da794d47
   m_configObjects: {}

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1803704986447323155}
   - component: {fileID: 1803704986447323152}
   - component: {fileID: 1803704986447323164}
-  - component: {fileID: 1803704986447323167}
+  - component: {fileID: 8584764274053349598}
   m_Layer: 0
   m_Name: Prize
   m_TagString: Untagged
@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Amplitude: 0.3
   m_Period: 1
   m_Direction: {x: 0, y: 1, z: 0}
---- !u!114 &1803704986447323167
+--- !u!114 &8584764274053349598
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -121,7 +121,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1803704986447323153}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c786c4b29e72040b881bf13065fb9788, type: 3}
+  m_Script: {fileID: 11500000, guid: c9fa330af3426624ba393d13998364a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Tag: Player
